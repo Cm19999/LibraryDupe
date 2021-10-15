@@ -5,11 +5,11 @@ public abstract class Paper extends Physical{
     private String Author;
     private int pages;
 
-    public Paper(String name, String[] Author) {
+    protected Paper(String name, String[] Author) {
         super(name);
     }
 
-    public Paper (String name, String Author){
+    protected Paper (String name, String Author){
         super(name);
         this.Author=Author;
     }

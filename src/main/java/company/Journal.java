@@ -20,7 +20,7 @@ public class Journal extends Document implements Borrow{
         }
 
 
-
+        @Override
     public String use(){
         return "What an informative journal";
     }

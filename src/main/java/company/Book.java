@@ -7,7 +7,7 @@ public abstract class Book extends Paper implements Borrow{
     private String genre;
 
 
-    public Book(String name,String Author,String ISBN){
+    protected Book(String name,String Author,String ISBN){
         super(name, Author);
         this.ISBN=ISBN;
     }

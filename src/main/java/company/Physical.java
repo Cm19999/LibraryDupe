@@ -7,12 +7,12 @@ public abstract class Physical extends LibraryArtifact{
 
 
 
-    public Physical(String name,ArrayList<LibraryArtifact> libraryCollection) {
+    protected Physical(String name,ArrayList<LibraryArtifact> libraryCollection) {
         super(name);
         this.libraryCollection=this.getLibraryCollection();
     }
 
-    public Physical(String name) {
+    protected Physical(String name) {
         super(name);
     }
 

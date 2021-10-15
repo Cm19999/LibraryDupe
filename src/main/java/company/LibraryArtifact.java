@@ -10,7 +10,7 @@ public abstract class LibraryArtifact {
 
     private String name;
 
-    public LibraryArtifact(String name){this.name = name;}
+    protected LibraryArtifact(String name){this.name = name;}
 
 
     public abstract String use();
