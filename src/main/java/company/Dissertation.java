@@ -2,8 +2,8 @@ package company;
 
 public class Dissertation extends Document implements Borrow{
 
-    private String objectType = "Dissertation";
-        Dissertation(String name,String Author){
+
+    Dissertation(String name,String Author){
             super(name,Author);
         }
 
@@ -14,6 +14,8 @@ public class Dissertation extends Document implements Borrow{
                 " Author= "+this.getAuthor()+'\''+
                 '}';
     }
+
+        @Override
         public String use(){
             return "What an informative dissertation";
         }

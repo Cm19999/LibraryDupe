@@ -2,9 +2,6 @@ package company;
 
 public class Paperback extends Book implements Borrow{
 
-    private String objectType = "Paperback";
-
-
     public Paperback(String name,String Author,String ISBN){
         super(name,Author,ISBN);
     }

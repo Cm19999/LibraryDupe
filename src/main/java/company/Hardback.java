@@ -2,7 +2,6 @@ package company;
 
 public class Hardback extends Book{
 
-    private String objectType = "Hardback";
     Hardback(String name,String Author,String ISBN){
         super(name,Author,ISBN);
     };
