@@ -4,7 +4,7 @@ public class Hardback extends Book{
 
     Hardback(String name,String Author,String ISBN){
         super(name,Author,ISBN);
-    };
+    }
 
 
     @Override
