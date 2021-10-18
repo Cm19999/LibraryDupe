@@ -16,7 +16,7 @@ public abstract class Physical extends LibraryArtifact{
         super(name);
     }
 
-    public abstract String use();
+
 
 
 }
